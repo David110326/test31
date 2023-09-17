@@ -7,6 +7,6 @@ driver.get("https://www.baidu.com")
 sleep(9)
 sleep(5)
 driver.quit()
-sleep(6)
+sleep(1)
 #add som
 #ffsfsfs
