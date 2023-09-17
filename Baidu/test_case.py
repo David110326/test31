@@ -5,8 +5,8 @@ driver=webdriver.WebDriver()
 driver.maximize_window()
 driver.get("https://www.baidu.com")
 sleep(9)
-driver.quit()
 sleep(5)
 driver.quit()
+sleep(6)
 #add som
 #ffsfsfs
