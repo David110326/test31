@@ -1,11 +1,12 @@
 print("Start test********************************")
 from selenium.webdriver.chrome import webdriver
 from time import sleep
+sleep(3)
 driver=webdriver.WebDriver()
 driver.maximize_window()
 driver.get("https://www.baidu.com")
-sleep(1)
-sleep(1)
+time.sleep(6)
+sleep(5)
 #add 
 #ffsfsfs
-sleep(1)
+sleep(9)
