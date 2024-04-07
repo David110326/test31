@@ -4,8 +4,8 @@ from time import sleep
 driver=webdriver.WebDriver()
 driver.maximize_window()
 driver.get("https://www.baidu.com")
-driver.quit()
-sleep(6)
-sleep(5)
-#add som
+sleep(1)
+sleep(1)
+#add 
 #ffsfsfs
+sleep(1)
