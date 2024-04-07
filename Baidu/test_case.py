@@ -6,4 +6,8 @@ driver.maximize_window()
 driver.get("https://www.baidu.com")
 driver.quit()
 #add som
+sleep(1)
+sleep(1)
+#add
 #ffsfsfs
+sleep(1)
