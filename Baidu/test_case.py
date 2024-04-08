@@ -6,7 +6,4 @@ driver=webdriver.Chrome()
 driver.maximize_window()
 driver.get("https://www.hao123.com")
 driver.quit()
-#add som
-#add
-#ffsfsfs
-sleep(1)
+
