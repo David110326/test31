@@ -28,4 +28,4 @@ if __name__ == '__main__':
     pytest.main(['run.py'])
     time.sleep(3)
     # 使用allure generate -o 命令将./allure_results目录下的临时报告生成到reports目录下变成html报告
-    os.system("allure generate ./allure_results -o ./reports --clean")
+    os.system("allure generate ./allure_results -o ./report --clean")
