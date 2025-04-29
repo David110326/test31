@@ -1,0 +1,49 @@
+#字典
+#name: "test_yaml"
+#result: "success"
+
+#列表
+#["a","b","c"]
+#- "a"
+#- "b"
+#- "c"
+
+#{person1:{"name":"xiaoming","age":"18"},
+#person2:{"name":"xiaohong","age":"20"}
+#}
+#person1:
+#  name: xiaoming
+#  age: 18
+#
+#person2:
+#  name: xiaohong
+#  age: 20
+
+#{person:["a","b","c"]}
+#person:
+#  - "a"
+#  - "b"
+#  - "c"
+#[["a","b","c"],["1","2","3"]]
+#-
+#  - "a"
+#  - "b"
+#  - "c"
+#-
+#  - "1"
+#  - "2"
+#  - "3"
+
+#[{"username1":"test1"},{"password1":"111","username2":"test2"}]
+#- username1: "test1"
+#- password1: "111"
+#  username2: test2
+#  test: "中文"
+
+# 读取多个文档
+---
+"username1": "test3"
+"password": "123456"
+---
+"username1": "test3"
+"password": "123456"
